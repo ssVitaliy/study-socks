@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "db-connection-monitor"
+version = "0.0.1"
+description = "Some tee via sockets for monitoring connection to DB."
+authors = ["Vitaliy <ss.vitaliy88@gmail.com>"]
+license = "Personal Usage"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
